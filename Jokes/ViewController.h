@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property NSArray *jokes;
+@property int current;
+@property (weak, nonatomic) IBOutlet UILabel *joke;
 
 @end
 
